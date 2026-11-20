@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="sky">
 <head>
-    <meta charset="UTF-8">
-    <title>UniSphere</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UniSphere | Student Academic Community</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Hello UniSphere</h1>
+
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <header class="navbar glass">
+    <a href="index.html" class="logo">
+      <img src="images/logo1.png" alt="UniSphere logo">
+      <span class="logo-text">Uni<span>Sphere</span></span>
+    </a>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="communities.html">Communities</a>
+      <a href="ask.html">Ask a Senior</a>
+      <a href="groups.html">Study Groups</a>
+      <a href="resources.html">Resources</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+    <button id="themeToggle" class="theme-btn" aria-label="Switch theme">Theme</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Your university.<br>Your people.<br>Your <span class="highlight">academic community</span>.</h1>
+      <p>Ask seniors, find study partners, share notes, and earn rewards for helping other students.</p>
+      <div class="hero-buttons">
+        <a href="profile.html" class="btn btn-primary">Get Started</a>
+        <a href="communities.html" class="btn btn-glass">Explore Communities</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <article class="card glass">
+        <h3>Ask &amp; Learn</h3>
+        <p>Get answers from students and seniors in your major.</p>
+      </article>
+      <article class="card glass">
+        <h3>Find Your People</h3>
+        <p>Join study groups and match with students in your courses.</p>
+      </article>
+      <article class="card glass">
+        <h3>Share Knowledge</h3>
+        <p>Exchange notes and resources, and earn XP for helping.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 UniSphere. Built by students, for students.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
